@@ -1,0 +1,40 @@
+1. Bert
+2. precision-recall threshold 
+3. Analyze cases where the model is wrong 
+shap values
+
+statistics of data before you start building your model
+1. how many different words in each document 
+2. Number of words for each class 
+3. y value_counts()
+4. An effort trying to understand what is going on in each section
+
+do one vs all without fine tuning probabilities
+
+Then second part: scalability and so on
+
+
+random state on tfidVectorizer
+add scoring metrics of precision and recall for the cross-validation
+
+
+create a plot of this code G
+
+# Choose a threshold based on the curve or your specific requirements
+chosen_threshold = 0.1  # Adjust this based on the analysis of the precision-recall curve
+11
+# Make predictions using the chosen threshold
+predictions = positive_class_probabilities >= chosen_threshold
+
+# Evaluate the model with the chosen threshold (e.g., using F1 score)
+f1 = f1_score(y_test == 0, predictions)
+print(f'F1 Score with Chosen Threshold: {f1}')
+
+
+
+
+
+How does it work in Italy the legal decision system? 
+
+Legifrance
+Ariane - decisions de justice

@@ -1,0 +1,9 @@
+pandas==2.2.0
+jupyterlab==4.1.1
+scikit-learn==1.4.1.post1
+matplotlib==3.8.3
+mlxtend==0.23.1
+seaborn==0.13.2
+transformers==4.37.2
+# torch==2.2.0 3 # pip install torch torchvision torchaudio
+openpyxl==3.1.2
