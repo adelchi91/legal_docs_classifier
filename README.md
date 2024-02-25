@@ -1,4 +1,4 @@
-# Doctrine Data Science skills test
+# Legal Documents Data Science exercise
 
 Purpose of this test is to evaluate your ability to produce a good code and analysis while discovering a few aspects of the Machine Learning Engineer's job at Doctrine.
 
